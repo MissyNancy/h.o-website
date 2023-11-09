@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="switch.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--========menu=========-->
+    <section class="menu">
+        <div class="logo">
+            <h2><span>H</span>ENRY</h2>
+        </div>
+        <ul class="nav">
+            <li><a href="home.html" onclick="openPopup()">Home</a></li>
+            <li><a href="about.html"  onclick="openPopup()">About</a></li>
+            <li><a href="home.html" onclick="openPopup()">Services</a></li>
+            <li><a href="gallery.html" onclick="openPopup()"> gallery</a></li>
+            <li><a href="about.html" onclick="openPopup()">Bookings</a></li>
+            <li><a href="home.html" onclick="openPopup()">Reviews</a></li>
+            <li><a href="home.html" onclick="openPopup()">Contact</a></li>
+        </ul>
+       
+    </section>
+   <!--========menu ends=========-->
+
+    <div class="body">
+        <div class="gall">
+            <div class="heading">
+                <h3 class="s-p">My work</h3>
+                <div class="g-box">
+                    <div class="dream">
+                        <img src="images/beach curch.jpg" alt="">
+                        <img src="images/church 4.jpg" alt="">
+                        <img src="images/church arrangement.jpg" alt="">
+                        <img src="images/reception 2.jpg" alt="">
+                        <img src="images/weding reception 1.jpg" alt="">
+                        <img src="images/bride pic.jpg" alt="">
+                        <img src="images/bride 4.jpg" alt="">
+                    </div>
+                    <div class="dream">
+                        <img src="images/confrence 6.jpg" alt="">
+                        <img src="images/confrence circle 1.jpg" alt="">
+                        <img src="images/confrence3.jpg" alt="">
+                        <img src="images/confress.jpg" alt="">
+                        <img src="images/bride to be.jpg" alt="">
+                        <img src="images/bride2.jpg" alt="">
+                    
+                    </div>
+                    <div class="dream">
+                        <img src="images/bridal shower.jpg" alt="">
+                        <img src="images/dinning birthday.jpg" alt="">
+                        <img src="images/baby showers.jpg" alt="">
+                        <img src="images/activational.jpg" alt="">
+                        <img src="images/end 1.jpg" alt="">
+                        <img src="images/bridal shower.jpg" alt="">
+                        <img src="birthday 4.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+        
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel({
+                padding:200
+            });
+            autoplay();
+            function autoplay() {
+                $('.carousel').carousel('next')
+                setTimeout(autoplay, 4500)
+            }
+
+
+        });
+    </script>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>

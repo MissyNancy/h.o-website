@@ -1,0 +1,293 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="switch.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--========menu=========-->
+    <section class="menu">
+        <div class="logo">
+            <h2><span>H</span>ENRY</h2>
+        </div>
+        <ul class="nav">
+            <li><a href="home.html" onclick="openPopup()">Home</a></li>
+            <li><a class="active" href="about.html"  onclick="openPopup()">About</a></li>
+            <li><a href="#services" onclick="openPopup()">Services</a></li>
+            <li><a href="gallery.html" onclick="openPopup()"> Gallery</a></li>
+            <li><a href="#booking" onclick="openPopup()">Bookings</a></li>
+            <li><a href="#reviews" onclick="openPopup()">Reviews</a></li>
+            <li><a href="#contact" onclick="openPopup()">Contact</a></li>
+        </ul>
+       
+    </section>
+   <!--========menu ends=========-->
+
+    <div class="body">
+     <!--========main body starts=========-->
+     <div class="home" id="home">
+        <div class="container">
+            
+            <div class="row">
+                <div class="home-info padd-15">
+                    <h3 class="hello">Hello, am <span class="name">Henry Ododa</span></h3>
+                    <h4 class="mypro">I'm an <span class="prof">Event Planner</span> and a <span class="prof">Marketer</span></h4>
+                    <p>I am a dedicated, Versatile and Goal oriented individual with proven ability to effectively plan,
+                         organize and coordinate an event to its success. With our extensive experience of over 5 years in the industry, working alongside reputable companies of varying sizes, I am equipped with the knowledge and skills to 
+                        ensure that your Event is not only executed flawlessly but also cherished as a memorable experience.
+                    </p> 
+                    <a href="#contact"><button class="button">Hire me</button></a>  
+                     
+                       
+                </div>
+                <div class="home-img">
+                    <img src="images/henry profile.jpg" alt="">
+                </div>
+            </div>
+        </div>
+      </div>  
+    
+      <div class="about" id="about">
+        <div class="container">
+            <h2 class="s-p">About me</h2>
+            <div class="row">
+                <div class="about-img">
+                    <img src="images/henry about2.jpg" alt="">
+                </div>
+                <div class="home-info padd-15">
+                    <h3>About me</h3>
+                    <h4 class="mypro">I'm an <span class="prof">Event Planner</span> and a <span class="prof">Marketer</span></h4>
+                    <p>I have assisted with design, planning and management of event since 2018. I cater for all kind
+                         of events be it coprates or social events. With strong  ability to effectively juggle multiple
+                          tasks while maintaining exceptional performance. Reliable team member who demonstrates effective 
+                          interpersonal and communication skills key in establishing and maintaining strong ties with colleagues, 
+                          senior personnel and clients.
+                    </p>    
+                    <a href="cv.pdf"><button class="button" download>downlod cv</button></a> 
+                    <a href="#contact"><button class="button">Hire me</button></a>
+
+                </div>
+                
+            </div>
+        </div>
+      </div>
+
+    </section>
+    <div class="service" id="services">
+      <div class="serv">
+          <div class="container">
+              <h2 class="s-p">Services & Packages</h2>
+              <div class="row">
+                  <div class="plat-package padd-15">
+                      <h3 class="sp">Platinum</h3>
+                      <p>- Initiating consultations with clients to discuss available wedding packages, desired wedding style, and budget considerations. </p>
+                      <p>- Collaborating with clients to determine wedding details, including venue options, entertainment preferences, catering choices, 
+                          and decoration themes. </p>
+                      <p>- Arranging meetings with clients to visit suitable wedding venues and coordinate with vendors such as 
+                          florists, photographers, caterers, bakers, and invitation designers. </p>
+                      <p>- Negotiating and finalizing contracts with selected vendors, overseeing payment
+                           processes. 
+                      </p>
+                      <p>- Negotiating and finalizing contracts with selected vendors, overseeing payment processes.</p>
+                      <p>- Ensuring timely printing of wedding and rehearsal dinner invitations, programs, place cards, etc.</p>
+                      <p>- Coordinating the transportation of necessary wedding supplies and equipment to the venue.</p>
+                      <p>- Safeguarding clients' wedding gifts and personal belongings in designated vehicles/storage area.</p>
+                      <p>- Supervising all activities on the wedding day to guarantee smooth functioning.</p>
+                      <p>- Offering Ushering Services.</p>
+                      
+  
+                  </div>
+                  <div class="gold-package padd-15">
+                      <h3 class="sp">Gold</h3>
+                      <p>- Hiring personnel, including ushers, to efficiently manage event operations on the wedding day.</p>
+                      <p>- Conducting final checks to ensure compliance with event standards.</p>
+                      <p>- Overseeing the smooth execution of the event and promptly addressing any issues that may arise.</p>
+                      <p>- Evaluating the success of the event and preparing comprehensive reports. </p>
+  
+                  </div>
+              </div>
+              <a href="gallery.html"><button class="button">Explore More</button></a>
+          </div>
+      </div>
+    </div>
+
+
+      
+      
+    <section class="booking" id="booking">
+        <div class="main-bg">
+            <div class="form-book">
+                <div class="form-text">
+                    <h1 class="s-p">Appointment</h1>
+                </div>
+                <div class="main-form">
+                    <form action="https://formsubmit.co/missynancy722@outlook.com" method="get">
+                        <div>
+                            <span>Name</span>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div>
+                            <span>email</span>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div>
+                            <span>Number of people</span>
+                            <input type="number" name="people" id="people" required>
+                           
+                        </div>
+                        <div>
+                            <span>Date of the event</span>
+                            <input type="date" name="date" id="date" required>
+                        </div>
+                        <div>
+                            <span>Phone Number</span>
+                            <input type="text" name="number" id="number" required>
+                        </div>
+                        <div>
+                            <span>Location</span>
+                            <input type="text" name="location" id="location" required>
+                        </div>
+                        <button type="submit" class="button">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+        <div class="carousel padd-15" id="reviews">
+            <h3 class="s-p">Reviews</h3>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="images/kimathi re.jpg" alt="">
+                    </div>
+                    <h2>Kimathi</h2>
+                    <p>It's not easy to meet the expectations of a client, to read through the mind of what
+                         the client wants, but you Henry got it. You have managed to meet the expectations 
+                         over and over and I am grateful for you and the Zerenity Grounds.
+                    </p>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="images/murithi.jpg" alt="">
+                    </div>
+                    <h2>Mattew Muthini</h2>
+                    <p>There are no words but to just say that you are amazing. It was awesome to have
+                         met you in the first place and secondly for being very welcoming and warm to us
+                          and our many requests
+                    </p>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="images/egypt.jpg" alt="">
+                    </div>
+                    <h2>Sheila</h2>
+                    <p>We came as a group of 7.  Henry took such great care of us and customized our meal
+                         for us. He always welcoming and friendly. His customer service is 
+                         fantastic.
+                        We highly recommend.
+                    </p>
+                </div>
+            </a>
+            
+        </div>
+    
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="s-p">
+                    <h2>Contact Me</h2>
+                </div>
+                <h3 class="cont-sub">For Any Question...</h3>
+                <div class="row">
+                    <div class="cont-details padd-15">
+                        <div class="stiker"><i class="fa-solid fa-phone"></i></div>
+                        <h4>call me on</h4>
+                        <p> +254 (0) 798 501 028</p>
+                    </div> 
+                    <div class="cont-details padd-15">
+                     <div class="stiker"><i class="fa-solid fa-envelope"></i></div>
+                     <h4>Emain Me On</h4>
+                     <p> ododahenry@gmail.com</p>
+                 </div>
+                 <div class="cont-details padd-15">
+                     <div class="stiker"><i class="fa-brands fa-square-instagram"></i></div>
+                     <h4>Follow me on</h4>
+                     <p> @henryododa</p>
+                 </div>
+                </div>
+                <h3 class="s-p padd-15">SEND AN EMAIL</h3>
+                <form action="https://formsubmit.co/missynancy722@outlook.com" method="POST">
+                    <div class="row">
+                        <div class="email-form">
+                            <div class="row">
+                                <div class="form col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="name" required>
+                                    </div>
+                                </div>
+                                <div class="form col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="subject" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="" placeholder="message" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="button">submit</button>
+                            
+                        </div>
+                    </div>
+    
+                        
+                
+                </form>
+            </div>
+                
+                
+        </section>
+        
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel({
+                padding:200
+            });
+            autoplay();
+            function autoplay() {
+                $('.carousel').carousel('next')
+                setTimeout(autoplay, 4500)
+            }
+
+
+        });
+    </script>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
